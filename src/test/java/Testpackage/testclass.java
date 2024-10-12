@@ -12,9 +12,11 @@ public class testclass {
 	
 @Test
 public void addition() {
-	int a =+ 5;
+	int a = 5;
 	int b=3;
-	int finaladd = a+b;
+	int c =+ a;
+	System.out.println(c);
+	int finaladd = b+c;
 	if (finaladd == additionValue) {
 		Assert.assertTrue(true);
 	}
