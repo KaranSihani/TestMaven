@@ -12,18 +12,18 @@ public class testclass {
 	
 	
 @Test
-public void addition() {
+public void addition() {{
 	int a = 5;
 	int b=3;	
 	int finaladd = a+b;
-	if (finaladd == additionValue) {
+	if (finaladd == additionValue) {{
 		Assert.assertTrue(true);
-	}
+	}}
 	else {
 		Assert.assertTrue(false);
 	}
 	
-}
+}}
 @Test
 public void subtraction() {
 	int a = 5;
