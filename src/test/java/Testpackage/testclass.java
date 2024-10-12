@@ -12,7 +12,7 @@ public class testclass {
 	
 @Test
 public void addition() {
-	int a = 5;
+	int a =+ 5;
 	int b=3;
 	int finaladd = a+b;
 	if (finaladd == additionValue) {
@@ -25,7 +25,7 @@ public void addition() {
 }
 @Test
 public void subtraction() {
-	int a = 5;
+	int a += 5;
 	int b=3;
 	int finalsub = a-b;
 	assertEquals(finalsub, subtractValue);	
