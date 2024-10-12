@@ -1,6 +1,10 @@
 package Testpackage;
 
 import static org.testng.Assert.assertEquals;
+
+import java.util.HashMap;
+import java.util.Map;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,18 +16,21 @@ public class testclass {
 	
 	
 @Test
-public void addition() {{
+public void addition() {
 	int a = 5;
 	int b=3;	
 	int finaladd = a+b;
-	if (finaladd == additionValue) {{
+	if (finaladd == additionValue) {
 		Assert.assertTrue(true);
-	}}
+	}
 	else {
 		Assert.assertTrue(false);
 	}
-	
-}}
+	Map source = new HashMap(){{ // Noncompliant
+	    put("firstName", "John");
+	    put("lastName", "Smith");
+	}};
+}
 @Test
 public void subtraction() {
 	int a = 5;
