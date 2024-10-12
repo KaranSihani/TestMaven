@@ -1,7 +1,7 @@
 package Testpackage;
 
 import static org.testng.Assert.assertEquals;
-
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class testclass {
@@ -15,7 +15,13 @@ public void addition() {
 	int a = 5;
 	int b=3;
 	int finaladd = a+b;
-	assertEquals(finaladd, additionValue);	
+	if (finaladd == additionValue) {
+		Assert.assertTrue(true);
+	}
+	else {
+		Assert.assertTrue(false);
+	}
+	
 }
 @Test
 public void subtraction() {
