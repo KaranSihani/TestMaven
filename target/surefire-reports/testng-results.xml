@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-12T15:19:22 IST" name="Suite" finished-at="2024-10-12T15:19:22 IST" duration-ms="52">
+    <groups>
+    </groups>
+    <test started-at="2024-10-12T15:19:22 IST" name="Test" finished-at="2024-10-12T15:19:22 IST" duration-ms="52">
+      <class name="Testpackage.testclass">
+        <test-method signature="addition()[pri:0, instance:Testpackage.testclass@53fdffa1]" started-at="2024-10-12T15:19:22 IST" name="addition" finished-at="2024-10-12T15:19:22 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition -->
+        <test-method signature="multiply()[pri:0, instance:Testpackage.testclass@53fdffa1]" started-at="2024-10-12T15:19:22 IST" name="multiply" finished-at="2024-10-12T15:19:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply -->
+        <test-method signature="subtraction()[pri:0, instance:Testpackage.testclass@53fdffa1]" started-at="2024-10-12T15:19:22 IST" name="subtraction" finished-at="2024-10-12T15:19:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtraction -->
+      </class> <!-- Testpackage.testclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
