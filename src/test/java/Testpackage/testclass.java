@@ -10,19 +10,12 @@ public class testclass {
 	int subtractValue = 2;
 	int multiplicationValue = 15;
 	
+	
 @Test
 public void addition() {
-	int target = -5;
-int num = 3;
-
-target =- num;  // Noncompliant; target = -3. Is that really what's meant?
-target =+ num; 
 	int a = 5;
-	int b=3;
-	int c;
-	c =+ a;
-	System.out.println(c);
-	int finaladd = b+c;
+	int b=3;	
+	int finaladd = a+b;
 	if (finaladd == additionValue) {
 		Assert.assertTrue(true);
 	}
