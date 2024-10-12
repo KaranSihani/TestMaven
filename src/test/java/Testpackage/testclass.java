@@ -12,6 +12,11 @@ public class testclass {
 	
 @Test
 public void addition() {
+	int target = -5;
+int num = 3;
+
+target =- num;  // Noncompliant; target = -3. Is that really what's meant?
+target =+ num; 
 	int a = 5;
 	int b=3;
 	int c;
