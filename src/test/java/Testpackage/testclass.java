@@ -14,7 +14,8 @@ public class testclass {
 public void addition() {
 	int a = 5;
 	int b=3;
-	int c =+ a;
+	int c;
+	c =+ a;
 	System.out.println(c);
 	int finaladd = b+c;
 	if (finaladd == additionValue) {
